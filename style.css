@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*                                 
+ #b9c6df     البورد                   
+ #d1def5     الخط                      
+ #7E30E1     خلفية نص                   
+ #451081     خلفية 
+                         dark mode
+
+               خلفية نص         #421181   
+
+                           #321f47   خلفية شاشة
+*/
+body{
+     background-color:#4e158f;
+    
+
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #7E30E1;
+    width: 250px;
+    border-radius: 0 50px;
+    border-left: 10px solid  #b9c6df;
+    border-bottom:3px solid   #b9c6df ;
+    padding:10px ;
+    font-size: 35px;
+    color:  #d1def5;
+    
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.bod{
+    display: grid;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+}
+button{
+    border: none;
+    margin-top: 50px;
+    background-color:#7E30E1;
+    width: 220px;
+    border-radius: 0 50px;
+    border-left: 10px solid  #b9c6df;
+    border-bottom:3px solid   #b9c6df ;
+    padding:15px ;
+    font-size: 20px;
+    font-weight: 600;
+    color:  #d1def5;
+
+}
+#container1,#container2,#container3,#container4,#container5,#container6,#container7{
+
+    display: grid;
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+
+
+#close{
+    height: 35px;
+    border: none;
+    background-color:#7E30E1;
+    width: 35px;
+    border-radius: 10px;
+    border-left: 5px solid  #b9c6df;
+    border-bottom:1px solid   #b9c6df ;
+    padding:5px ;
+    font-size: 17px;
+    font-weight: 600;
+    color:  #d1def5;
+    position: absolute;
+    top:0;
+    left:15px;
+    
+}
+button:hover{
+    background-color: #7d30e171;
+    
+}
+
+
+
+#container1 button,#container2 button,#container3 button,#container4 button,#container5 button,#container6 button,#container7 button{
+    height: 450px;
+    border: none;
+    margin-top: 50px;
+    background-color:#7E30E1;
+    width: 300px;
+    border-radius: 0 50px;
+    border-left: 10px solid  #b9c6df;
+    border-bottom:3px solid   #b9c6df ;
+    padding:15px ;
+    font-size: 15px;
+    font-weight: 600;
+    color:  #d1def5;
+
+}
+#container3 .ll{
+    height: 900px;
+}
+
+
+#nn{
+        height: 35px;
+        border: none;
+        background-color:#7E30E1;
+        width: 35px;
+        border-radius: 10px;
+        border-left: 5px solid  #b9c6df;
+        border-bottom:1px solid   #b9c6df ;
+        padding:4px ;
+        font-size: 13px;
+        font-weight: 200;
+        color:  #d1def5;
+        position: absolute;
+        bottom:10px;
+        right: 10px;
+        top: 350px;
+        cursor: pointer;
+        position: fixed;
+        
+}
+#nn:hover{
+    background-color: #7d30e171;
+    
+}
+#close{
+    cursor: pointer;
+}
+.hide{
+   visibility: hidden;
+   position: absolute;
+   
+}
+#dark{
+
+        height: 40px;
+        border: none;
+        background-color:#7E30E1;
+        width: 40px;
+        border-radius: 10px;
+        border-left: 5px solid  #b9c6df;
+        border-bottom:1px solid   #b9c6df ;
+        padding:4px ;
+        font-size: 12px;
+        font-weight: 200;
+        color:  #d1def5;
+        position: absolute;
+        bottom:10px;
+        right: 10px;
+        top: 20px;
+        cursor: pointer;
+        position: fixed;
+}
+.dark{
+    background-color:#3b1271;
+}
+#dark:hover{
+    background-color: #7016e771;
+    
+}
+#container1 button:hover{
+    background-color: #7016e771;
+}
+#container2 button:hover{
+    background-color: #7016e771;
+}
+#container3 button:hover{
+    background-color: #7016e771;
+}
+#container4 button:hover{
+    background-color: #7016e771;
+}
+#container5 button:hover{
+    background-color: #7016e771;
+}
+#container6 button:hover{
+    background-color: #7016e771;
+}
+#container7 button:hover{
+    background-color: #7016e771;
+}
+#close:hover{
+    background-color: #7016e771;
+}
